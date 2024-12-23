@@ -1,13 +1,13 @@
 package org.example.product.model;
 
-public class Product {
+public class ProductModel {
 
     private String name;
     private String description;
     private double price;
     private int quantity;
 
-    public Product(String name, double price, int quantity , String description) {
+    public ProductModel(String name, double price, int quantity , String description) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
